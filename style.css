@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    /* font-family: Montserrat,'sansarif'; */
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+}
+.icon{
+    /* display: none; */
+    
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.icon h3{
+    text-align: center;
+    color:  #575A85;
+    
+}
+.icon p{
+    width: 80%;
+}
+.icon img{
+    width: 55%;
+    height: 62%;
+    margin-left: 3rem;
+}
+.address{
+    /* display: none; */
+
+    width: 50%;
+    background-color: #575A85;
+    
+}
+.ip_address{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    top: 9rem;
+    margin-left: 13rem;
+}
+.ip_address input{
+    color: white;
+    padding: 1rem 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.ip_address button{
+    padding: 0.5rem 3.2rem;
+    font-size: 0.8rem;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 7%;
+}
+.container-2{
+    display: none;
+    background-color: black;
+    color: white;
+}
+.infomation{
+    display: flex;
+    gap: 15rem;
+    margin-bottom: 2rem;
+}
+.header_ip{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+.header_ip p{
+    font-size: 1.2rem;
+
+}
+.infomation p{
+    font-size: 1.6rem;
+}
+.current-location{
+    background-color:#575A85 ;
+}
+.current-location h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.current-location iframe:hover{
+    border: 2px solid #3cb371;
+}
+.current-location iframe{
+    margin-left: 2rem;
+    width: 95%;
+  
+}
+.more-information{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.more-information h2{
+    text-align: center;
+
+}
+.more-information p{
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+.all-postOffices h2{
+    text-align: center;
+}
+.serch-by-name{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    border: 2px solid gray;
+    margin-bottom: 2rem;
+}
+.serch-by-name input{
+    border: none;
+    outline: none;
+    padding: 1.2rem 1.2rem;
+    background-color: transparent;
+    color:white;
+    font-size: 1.4rem;
+}
+.serch-by-name:hover{
+    border: 2px solid green;
+}
+.fa-solid .fa-magnifying-glass{
+    width: 30%;
+
+}
+
+.all-postOffices input{
+   
+}
+
+.office-card{
+    background-color: #575A85;
+    /* width: 30%; */
+}
+.office-card p{
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+.office-card{
+    margin-left: 2rem;
+}
+.post-office-cards{
+    display: grid;
+    grid-template-columns: repeat(2,42%);
+    gap:2rem;
+}

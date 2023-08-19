@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,500;1,600;1,700;1,800&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="icon">
+            <h3>Post Office Application</h3>
+            <p>This Application Allows you to extract information about the nearest Post Offices, based on your location</p>
+            <img src="/Images/Post_officer.png" alt="Post_officer">
+
+        </div>
+        <div class="address">
+            <div class="ip_address">
+                <div>
+                    <p>Your Current Ip address</p><span id="ipaddress">
+
+                </div>
+                <div>
+                    <button id="submit-btn">Get Started</button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-2" id="container-2">
+        <div class="ip_information">
+            <div class="header_ip">
+                <h2>IP  Address</h2><p id="ip"></p>
+            </div>
+            <div class="infomation">
+                <div class="logi">
+                    <p>Long:<span id="long"></span></p>
+                    <p>Lat:<span id="lat"></span></p>
+
+                </div>
+                <div class="logi">
+                    <p>City:<span id="city"></span></p>
+                    <p>Region:<span id="region"></span></p>
+
+                </div>
+                <div class="logi">
+                    <p>Organization:</p><span id="orgnization"></span>
+                    <p>HostName:</p><span id="host"></span>
+
+                </div>
+
+            </div>
+
+            <div class="location">
+                <div class="current-location">
+                    <h3>Your current Location</h3>
+                    <iframe src="https://maps.google.com/maps?q=14.6818877, 77.6005911&z=15&output=embed" width="360" height="270" frameborder="0" style="border:0"></iframe>
+
+
+                </div>
+                
+            </div>
+
+            
+        </div>
+        <div class="more-information">
+            <h2>More Information About You</h2>
+            <p>TimeZone:<span id="time-zone"></span></p>
+            <p>Date and Time:<span id="date-time"></span></p>
+            <p>Pincode:<span id="pincode"></span></p>
+            <p>Message:<span id="message"></span></p>
+
+
+
+
+
+
+        </div>
+
+        <div class="all-postOffices">
+            <h2>Post Office Near to You</h2>
+            <div class="serch-by-name">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text"  id="search-city" placeholder="Enter the name of city">
+
+
+
+            </div>
+        </div>
+
+        <div class="post-office-cards" id="post-office-cards">
+            <!-- <div class="office-card">
+                
+                <p>Name</p>
+                <p>BranchType</p>
+                <p>DeliveryStatus</p>
+                <p>District</p>
+                <p>Division<span id="division"></p>
+
+    
+            </div> -->
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+</html>
