@@ -1,6 +1,6 @@
 *{
     margin:0;
-    /* font-family: Montserrat,'sansarif'; */
+    font-family: Montserrat,'sans-serif';
     padding: 0;
 }
 .container{
@@ -77,7 +77,7 @@
 }
 .infomation{
     display: flex;
-    gap: 15rem;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 .header_ip{
